@@ -1,0 +1,43 @@
+
+
+#services {
+  background-color: var(--gray-100);
+  padding-top: 160px;
+  padding-bottom: 120px;
+}
+
+.services-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1020px; /* 280*3 + 20*2 de gap */
+  margin: 0 auto;
+}
+
+.service-card {
+  width: 280px;
+  height: 155px;
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  border-radius: 8px;
+}
+
+.service-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.service-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
