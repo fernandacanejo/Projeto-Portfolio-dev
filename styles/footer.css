@@ -1,0 +1,99 @@
+#contacts {
+  background-image: url(/assets/images/Background_Contacts.png);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px 120px;
+  color: var(--gray-100);
+  text-align: center;
+}
+
+.footer-header h3 {
+  color: var(--color-purple);
+  font: var(--subtittle);
+  margin: 0;
+}
+
+.footer-header p {
+  font: var(--title-md);
+  color: var(--gray-600);
+  margin-top: 8px;
+}
+
+.footer-header p.footer-subtitle {
+  font: var(--text-md);
+  color: var(--gray-500);
+  margin-top: 8px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-card {
+  width: 400px;
+  height: 68px;
+  background: var(--gray-300);
+  border: 1px solid var(--gray-300);
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  position: relative;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  transition: filter 0.3s ease;
+  filter: grayscale(100%) brightness(70%);
+}
+
+/* Hover: borda azul */
+.contact-card:hover {
+  border-color: var(--color-blue);
+}
+
+/* Hover: ícone sem grayscale e com filtro azul */
+.contact-card:hover .contact-icon {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(78%) saturate(3251%) hue-rotate(190deg) brightness(97%) contrast(101%);
+  outline: none;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  position: relative;
+}
+
+.contact-card a {
+  color: var(--gray-500);
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-decoration: none;
+  flex-grow: 1;
+  user-select: none;
+  transition: color 0.3s ease;
+  text-align: left;
+}
+
+
