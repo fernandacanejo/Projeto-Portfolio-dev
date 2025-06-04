@@ -63,7 +63,6 @@
 
 #icons {
   width: 754px;
-  /* opcional: centralizar horizontalmente */
   margin: 0 auto;
 }
 
@@ -76,7 +75,7 @@
   font:var(--text-md);
   color:var(--gray-500);
   margin-top: 80px;
-  width: 100%; /* para preencher os 754px do #icons */
+  width: 100%; 
 }
 
 #icons li {
@@ -97,4 +96,9 @@
 #arrow {
   width: 32px;
   margin-top: 94px;
+}
+
+
+header.container {
+  margin-bottom: 40px; 
 }

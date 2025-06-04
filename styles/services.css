@@ -10,7 +10,7 @@
   display: flex;
   gap: 20px;
   justify-content: center;
-  max-width: 1020px; /* 280*3 + 20*2 de gap */
+  max-width: 1020px; 
   margin: 0 auto;
 }
 

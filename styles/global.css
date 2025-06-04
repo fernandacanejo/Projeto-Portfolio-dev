@@ -38,15 +38,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* para centralizar verticalmente */
+  justify-content: center; 
   max-width: 1040px;
   width: 100%;
   margin: 0 auto;
-  min-height: 100vh; /* NOVO: força o container a ocupar a altura total da tela */
+  min-height: 100vh; /
 }
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 #main-content {
@@ -64,7 +65,7 @@ html {
 
 .section-header h3 {
   color: var(--color-red);
-  font: var(--subtittle);
+  font: var(--subtitle);
 }
 
 .section-header p {
